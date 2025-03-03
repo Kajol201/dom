@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dolorum nemo voluptates odit hic cumque ea eligendi, dolores voluptatem corrupti repellendus quam sit? Modi aut omnis cupiditate officiis doloribus quas?</section>
+    <section>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dolorum nemo voluptates odit hic cumque ea eligendi, dolores voluptatem corrupti repellendus quam sit? Modi aut omnis cupiditate officiis doloribus quas?</section>
+    <section>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dolorum nemo voluptates odit hic cumque ea eligendi, dolores voluptatem corrupti repellendus quam sit? Modi aut omnis cupiditate officiis doloribus quas?</section>
+    <section>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dolorum nemo voluptates odit hic cumque ea eligendi, dolores voluptatem corrupti repellendus quam sit? Modi aut omnis cupiditate officiis doloribus quas?</section>
+    <section id="sisu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dolorum nemo voluptates odit hic cumque ea eligendi, dolores voluptatem corrupti repellendus quam sit? Modi aut omnis cupiditate officiis doloribus quas?</section>
+    
+
+    <script>
+        const ju=document.querySelectorAll('section');
+        for(const con of ju){
+            con.style.backgroundColor='red';
+            con.style.marginTop='10px';
+            con.style.padding='10px';
+        }
+        const cre=document.createElement('p');
+        cre.innerText='tor amar name';
+        document.getElementById('sisu').appendChild(cre);
+
+    </script>
+</body>
+</html>
